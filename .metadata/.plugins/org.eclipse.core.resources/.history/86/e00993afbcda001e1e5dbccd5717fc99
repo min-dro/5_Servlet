@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>서블릿 시작하기</title>
+</head>
+<body>
+    <h1>계산기 서블릿</h1>
+    <hr>
+    <form action="/1_Servlet/test.do" method="GET">
+        <input type="text" id="num1", name="num1">
+        <select name="calc" id="calc">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" id="num2" name="num2">
+        <input type="submit" id="calc" name="calc">
+    </form>
+</body>
+</html>

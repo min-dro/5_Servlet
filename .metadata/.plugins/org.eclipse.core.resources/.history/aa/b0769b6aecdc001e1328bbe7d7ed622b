@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>피자 주문하기</h1>
+	<h2>현재 날짜</h2>
+	<h3>2024년 03월 08일</h3>
+	
+	<p>주문자 정보</p>
+	<form action="">
+		<div>
+			<label>이름</label>
+			<input type="text" id="name" name="name">
+		</div>
+		<div>
+			<label>연락처</label>
+			<input type="tel">
+		</div>
+	</form>
+</body>
+</html>
